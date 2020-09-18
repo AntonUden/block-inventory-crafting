@@ -1,0 +1,13 @@
+main: net.zeeraa.blockinventorycrafting.BlockInventoryCrafting
+name: BlockInventoryCrafting
+version: 1.0.0
+description: This plugin is used to prevent player from crafting in their inventory
+api-version: 1.16
+load: POSTWORLD
+author: Zeeraa
+website: zeeraa.net
+
+permissions:
+  blockinventorycrafting.blockinventorycrafing:
+    description: Prevents a player from crafting items in their inventory
+    default: false
